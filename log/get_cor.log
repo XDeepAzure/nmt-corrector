@@ -1,0 +1,992 @@
+INFO - 03/27/23 13:43:34 - 0:00:04 - checkpoint/mbart50/ur-en-23K/src_ref_pre.bin
+INFO - 03/27/23 13:43:53 - 0:00:03 - checkpoint/mbart50/ur-en-23K/src_ref_pre.bin
+INFO - 03/27/23 13:43:53 - 0:00:04 - load src_ref_pre three tuple over
+INFO - 03/27/23 13:48:08 - 0:04:18 - 平均bule值为21.676482188829063
+INFO - 03/27/23 13:48:08 - 0:04:18 - 经过bleu过滤之前23000
+INFO - 03/27/23 13:48:08 - 0:04:18 - 经过过滤之后的14436
+INFO - 03/27/23 13:48:08 - 0:04:18 - every thread process num of sentence 643, the last thread process num 649
+INFO - 03/27/23 13:48:08 - 0:04:18 - 每次调用api处理的句子数9
+INFO - 03/27/23 13:48:23 - 0:00:07 - 子进程5正在第0次调用api 已获取结果
+INFO - 03/27/23 13:48:24 - 0:00:08 - 子进程2正在第0次调用api 已获取结果
+INFO - 03/27/23 13:48:25 - 0:00:09 - 子进程8正在第0次调用api 已获取结果
+INFO - 03/27/23 13:48:25 - 0:00:09 - 子进程3正在第0次调用api 已获取结果
+INFO - 03/27/23 13:48:26 - 0:00:10 - 子进程9正在第0次调用api 已获取结果
+INFO - 03/27/23 13:48:26 - 0:00:10 - 子进程4正在第0次调用api 已获取结果
+INFO - 03/27/23 13:48:27 - 0:00:11 - 子进程5正在第1次调用api 已获取结果
+INFO - 03/27/23 13:48:28 - 0:00:12 - 子进程1正在第0次调用api 已获取结果
+INFO - 03/27/23 13:48:29 - 0:00:13 - 子进程0正在第0次调用api 已获取结果
+INFO - 03/27/23 13:48:29 - 0:00:13 - 子进程7正在第0次调用api 已获取结果
+INFO - 03/27/23 13:48:29 - 0:00:14 - 子进程5正在第2次调用api 已获取结果
+INFO - 03/27/23 13:48:30 - 0:00:14 - 子进程2正在第1次调用api 已获取结果
+INFO - 03/27/23 13:48:32 - 0:00:16 - 子进程6正在第0次调用api 已获取结果
+INFO - 03/27/23 13:48:32 - 0:00:16 - 子进程8正在第1次调用api 已获取结果
+INFO - 03/27/23 13:48:32 - 0:00:17 - 子进程3正在第1次调用api 已获取结果
+INFO - 03/27/23 13:48:32 - 0:00:16 - 子进程9正在第1次调用api 已获取结果
+INFO - 03/27/23 13:48:34 - 0:00:18 - 子进程5正在第3次调用api 已获取结果
+INFO - 03/27/23 13:48:34 - 0:00:18 - 子进程4正在第1次调用api 已获取结果
+INFO - 03/27/23 13:48:36 - 0:00:20 - 子进程2正在第2次调用api 已获取结果
+INFO - 03/27/23 13:48:36 - 0:00:20 - 子进程5正在第4次调用api 已获取结果
+INFO - 03/27/23 13:48:37 - 0:00:21 - 子进程9正在第2次调用api 已获取结果
+INFO - 03/27/23 13:48:39 - 0:00:23 - 子进程8正在第2次调用api 已获取结果
+INFO - 03/27/23 13:48:39 - 0:00:23 - 子进程5正在第5次调用api 已获取结果
+INFO - 03/27/23 13:48:39 - 0:00:24 - 子进程3正在第2次调用api 已获取结果
+INFO - 03/27/23 13:48:40 - 0:00:24 - 子进程7正在第1次调用api 已获取结果
+INFO - 03/27/23 13:48:40 - 0:00:24 - 子进程1正在第1次调用api 已获取结果
+INFO - 03/27/23 13:48:40 - 0:00:25 - 子进程2正在第3次调用api 已获取结果
+INFO - 03/27/23 13:48:42 - 0:00:26 - 子进程5正在第6次调用api 已获取结果
+INFO - 03/27/23 13:48:43 - 0:00:27 - 子进程0正在第1次调用api 已获取结果
+INFO - 03/27/23 13:48:43 - 0:00:27 - 子进程9正在第3次调用api 已获取结果
+INFO - 03/27/23 13:48:43 - 0:00:28 - 子进程4正在第2次调用api 已获取结果
+INFO - 03/27/23 13:48:44 - 0:00:28 - 子进程6正在第1次调用api 已获取结果
+INFO - 03/27/23 13:48:46 - 0:00:30 - 子进程2正在第4次调用api 已获取结果
+INFO - 03/27/23 13:48:46 - 0:00:30 - 子进程5正在第7次调用api 已获取结果
+INFO - 03/27/23 13:48:47 - 0:00:31 - 子进程7正在第2次调用api 已获取结果
+INFO - 03/27/23 13:48:47 - 0:00:32 - 子进程3正在第3次调用api 已获取结果
+INFO - 03/27/23 13:48:47 - 0:00:32 - 子进程1正在第2次调用api 已获取结果
+INFO - 03/27/23 13:48:49 - 0:00:33 - 子进程8正在第3次调用api 已获取结果
+INFO - 03/27/23 13:48:49 - 0:00:33 - 子进程2正在第5次调用api 已获取结果
+INFO - 03/27/23 13:48:49 - 0:00:34 - 子进程5正在第8次调用api 已获取结果
+INFO - 03/27/23 13:48:52 - 0:00:36 - 子进程9正在第4次调用api 已获取结果
+INFO - 03/27/23 13:48:52 - 0:00:37 - 子进程0正在第2次调用api 已获取结果
+INFO - 03/27/23 13:48:53 - 0:00:37 - 子进程4正在第3次调用api 已获取结果
+INFO - 03/27/23 13:48:54 - 0:00:39 - 子进程5正在第9次调用api 已获取结果
+INFO - 03/27/23 13:48:55 - 0:00:39 - 子进程7正在第3次调用api 已获取结果
+INFO - 03/27/23 13:48:56 - 0:00:41 - 子进程1正在第3次调用api 已获取结果
+INFO - 03/27/23 13:48:57 - 0:00:41 - 子进程3正在第4次调用api 已获取结果
+INFO - 03/27/23 13:48:57 - 0:00:41 - 子进程6正在第2次调用api 已获取结果
+INFO - 03/27/23 13:48:57 - 0:00:42 - 子进程5正在第10次调用api 已获取结果
+INFO - 03/27/23 13:48:58 - 0:00:42 - 子进程2正在第6次调用api 已获取结果
+INFO - 03/27/23 13:48:58 - 0:00:42 - 子进程8正在第4次调用api 已获取结果
+INFO - 03/27/23 13:49:00 - 0:00:44 - 子进程5正在第11次调用api 已获取结果
+INFO - 03/27/23 13:49:01 - 0:00:45 - 子进程9正在第5次调用api 已获取结果
+INFO - 03/27/23 13:49:01 - 0:00:46 - 子进程4正在第4次调用api 已获取结果
+INFO - 03/27/23 13:49:03 - 0:00:47 - 子进程0正在第3次调用api 已获取结果
+INFO - 03/27/23 13:49:03 - 0:00:47 - 子进程5正在第12次调用api 已获取结果
+INFO - 03/27/23 13:49:04 - 0:00:48 - 子进程7正在第4次调用api 已获取结果
+INFO - 03/27/23 13:49:04 - 0:00:48 - 子进程3正在第5次调用api 已获取结果
+INFO - 03/27/23 13:49:04 - 0:00:48 - 子进程2正在第7次调用api 已获取结果
+INFO - 03/27/23 13:49:05 - 0:00:49 - 子进程8正在第5次调用api 已获取结果
+INFO - 03/27/23 13:49:07 - 0:00:51 - 子进程9正在第6次调用api 已获取结果
+INFO - 03/27/23 13:49:07 - 0:00:51 - 子进程1正在第4次调用api 已获取结果
+INFO - 03/27/23 13:49:08 - 0:00:52 - 子进程5正在第13次调用api 已获取结果
+INFO - 03/27/23 13:49:09 - 0:00:53 - 子进程6正在第3次调用api 已获取结果
+INFO - 03/27/23 13:49:09 - 0:00:53 - 子进程4正在第5次调用api 已获取结果
+INFO - 03/27/23 13:49:10 - 0:00:55 - 子进程3正在第6次调用api 已获取结果
+INFO - 03/27/23 13:49:11 - 0:00:55 - 子进程8正在第6次调用api 已获取结果
+INFO - 03/27/23 13:49:11 - 0:00:55 - 子进程5正在第14次调用api 已获取结果
+INFO - 03/27/23 13:49:12 - 0:00:56 - 子进程2正在第8次调用api 已获取结果
+INFO - 03/27/23 13:49:12 - 0:00:56 - 子进程7正在第5次调用api 已获取结果
+INFO - 03/27/23 13:49:12 - 0:00:56 - 子进程0正在第4次调用api 已获取结果
+INFO - 03/27/23 13:49:15 - 0:00:59 - 子进程4正在第6次调用api 已获取结果
+INFO - 03/27/23 13:49:15 - 0:00:59 - 子进程5正在第15次调用api 已获取结果
+INFO - 03/27/23 13:49:15 - 0:01:00 - 子进程8正在第7次调用api 已获取结果
+INFO - 03/27/23 13:49:17 - 0:01:01 - 子进程9正在第7次调用api 已获取结果
+INFO - 03/27/23 13:49:17 - 0:01:02 - 子进程1正在第5次调用api 已获取结果
+INFO - 03/27/23 13:49:17 - 0:01:01 - 子进程2正在第9次调用api 已获取结果
+INFO - 03/27/23 13:49:18 - 0:01:02 - 子进程5正在第16次调用api 已获取结果
+INFO - 03/27/23 13:49:19 - 0:01:03 - 子进程0正在第5次调用api 已获取结果
+INFO - 03/27/23 13:49:20 - 0:01:04 - 子进程3正在第7次调用api 已获取结果
+INFO - 03/27/23 13:49:20 - 0:01:04 - 子进程8正在第8次调用api 已获取结果
+INFO - 03/27/23 13:49:22 - 0:01:06 - 子进程5正在第17次调用api 已获取结果
+INFO - 03/27/23 13:49:23 - 0:01:07 - 子进程2正在第10次调用api 已获取结果
+INFO - 03/27/23 13:49:23 - 0:01:07 - 子进程7正在第6次调用api 已获取结果
+INFO - 03/27/23 13:49:24 - 0:01:08 - 子进程9正在第8次调用api 已获取结果
+INFO - 03/27/23 13:49:24 - 0:01:08 - 子进程5正在第18次调用api 已获取结果
+INFO - 03/27/23 13:49:25 - 0:01:09 - 子进程6正在第4次调用api 已获取结果
+INFO - 03/27/23 13:49:25 - 0:01:10 - 子进程4正在第7次调用api 已获取结果
+INFO - 03/27/23 13:49:26 - 0:01:10 - 子进程8正在第9次调用api 已获取结果
+INFO - 03/27/23 13:49:27 - 0:01:11 - 子进程0正在第6次调用api 已获取结果
+INFO - 03/27/23 13:49:27 - 0:01:12 - 子进程1正在第6次调用api 已获取结果
+INFO - 03/27/23 13:49:28 - 0:01:12 - 子进程5正在第19次调用api 已获取结果
+INFO - 03/27/23 13:49:29 - 0:01:13 - 子进程3正在第8次调用api 已获取结果
+INFO - 03/27/23 13:49:30 - 0:01:15 - 子进程2正在第11次调用api 已获取结果
+INFO - 03/27/23 13:49:30 - 0:01:14 - 子进程5正在第20次调用api 已获取结果
+INFO - 03/27/23 13:49:31 - 0:01:15 - 子进程7正在第7次调用api 已获取结果
+INFO - 03/27/23 13:49:31 - 0:01:15 - 子进程9正在第9次调用api 已获取结果
+INFO - 03/27/23 13:49:33 - 0:01:17 - 子进程8正在第10次调用api 已获取结果
+INFO - 03/27/23 13:49:33 - 0:01:17 - 子进程5正在第21次调用api 已获取结果
+INFO - 03/27/23 13:49:33 - 0:01:18 - 子进程0正在第7次调用api 已获取结果
+INFO - 03/27/23 13:49:35 - 0:01:20 - 子进程4正在第8次调用api 已获取结果
+INFO - 03/27/23 13:49:36 - 0:01:20 - 子进程5正在第22次调用api 已获取结果
+INFO - 03/27/23 13:49:37 - 0:01:22 - 子进程2正在第12次调用api 已获取结果
+INFO - 03/27/23 13:49:38 - 0:01:22 - 子进程7正在第8次调用api 已获取结果
+INFO - 03/27/23 13:49:38 - 0:01:22 - 子进程5正在第23次调用api 已获取结果
+INFO - 03/27/23 13:49:38 - 0:01:23 - 子进程8正在第11次调用api 已获取结果
+INFO - 03/27/23 13:49:39 - 0:01:23 - 子进程9正在第10次调用api 已获取结果
+INFO - 03/27/23 13:49:41 - 0:01:25 - 子进程1正在第7次调用api 已获取结果
+INFO - 03/27/23 13:49:41 - 0:01:25 - 子进程5正在第24次调用api 已获取结果
+INFO - 03/27/23 13:49:41 - 0:01:25 - 子进程3正在第9次调用api 已获取结果
+INFO - 03/27/23 13:49:41 - 0:01:25 - 子进程6正在第5次调用api 已获取结果
+INFO - 03/27/23 13:49:42 - 0:01:27 - 子进程2正在第13次调用api 已获取结果
+INFO - 03/27/23 13:49:43 - 0:01:27 - 子进程0正在第8次调用api 已获取结果
+INFO - 03/27/23 13:49:43 - 0:01:28 - 子进程8正在第12次调用api 已获取结果
+INFO - 03/27/23 13:49:43 - 0:01:28 - 子进程5正在第25次调用api 已获取结果
+INFO - 03/27/23 13:49:46 - 0:01:30 - 子进程5正在第26次调用api 已获取结果
+INFO - 03/27/23 13:49:46 - 0:01:30 - 子进程9正在第11次调用api 已获取结果
+INFO - 03/27/23 13:49:48 - 0:01:32 - 子进程4正在第9次调用api 已获取结果
+INFO - 03/27/23 13:49:49 - 0:01:33 - 子进程3正在第10次调用api 已获取结果
+INFO - 03/27/23 13:49:49 - 0:01:33 - 子进程2正在第14次调用api 已获取结果
+INFO - 03/27/23 13:49:49 - 0:01:33 - 子进程7正在第9次调用api 已获取结果
+INFO - 03/27/23 13:49:49 - 0:01:33 - 子进程5正在第27次调用api 已获取结果
+INFO - 03/27/23 13:49:49 - 0:01:33 - 子进程8正在第13次调用api 已获取结果
+INFO - 03/27/23 13:49:49 - 0:01:34 - 子进程1正在第8次调用api 已获取结果
+INFO - 03/27/23 13:49:52 - 0:01:36 - 子进程5正在第28次调用api 已获取结果
+INFO - 03/27/23 13:49:52 - 0:01:36 - 子进程0正在第9次调用api 已获取结果
+INFO - 03/27/23 13:49:53 - 0:01:36 - 子进程9正在第12次调用api 已获取结果
+INFO - 03/27/23 13:49:54 - 0:01:38 - 子进程6正在第6次调用api 已获取结果
+INFO - 03/27/23 13:49:54 - 0:01:38 - 子进程8正在第14次调用api 已获取结果
+INFO - 03/27/23 13:49:54 - 0:01:39 - 子进程4正在第10次调用api 已获取结果
+INFO - 03/27/23 13:49:55 - 0:01:40 - 子进程5正在第29次调用api 已获取结果
+INFO - 03/27/23 13:49:55 - 0:01:40 - 子进程2正在第15次调用api 已获取结果
+INFO - 03/27/23 13:49:57 - 0:01:41 - 子进程3正在第11次调用api 已获取结果
+INFO - 03/27/23 13:49:58 - 0:01:42 - 子进程7正在第10次调用api 已获取结果
+INFO - 03/27/23 13:49:58 - 0:01:42 - 子进程9正在第13次调用api 已获取结果
+INFO - 03/27/23 13:49:58 - 0:01:43 - 子进程1正在第9次调用api 已获取结果
+INFO - 03/27/23 13:49:59 - 0:01:43 - 子进程4正在第11次调用api 已获取结果
+INFO - 03/27/23 13:49:59 - 0:01:44 - 子进程0正在第10次调用api 已获取结果
+INFO - 03/27/23 13:49:59 - 0:01:43 - 子进程5正在第30次调用api 已获取结果
+INFO - 03/27/23 13:49:59 - 0:01:44 - 子进程8正在第15次调用api 已获取结果
+INFO - 03/27/23 13:50:00 - 0:01:44 - 子进程2正在第16次调用api 已获取结果
+INFO - 03/27/23 13:50:02 - 0:01:47 - 子进程5正在第31次调用api 已获取结果
+INFO - 03/27/23 13:50:04 - 0:01:48 - 子进程4正在第12次调用api 已获取结果
+INFO - 03/27/23 13:50:05 - 0:01:49 - 子进程9正在第14次调用api 已获取结果
+INFO - 03/27/23 13:50:05 - 0:01:49 - 子进程3正在第12次调用api 已获取结果
+INFO - 03/27/23 13:50:05 - 0:01:49 - 子进程8正在第16次调用api 已获取结果
+INFO - 03/27/23 13:50:06 - 0:01:50 - 子进程5正在第32次调用api 已获取结果
+INFO - 03/27/23 13:50:07 - 0:01:51 - 子进程2正在第17次调用api 已获取结果
+INFO - 03/27/23 13:50:07 - 0:01:51 - 子进程4正在第13次调用api 已获取结果
+INFO - 03/27/23 13:50:09 - 0:01:53 - 子进程5正在第33次调用api 已获取结果
+INFO - 03/27/23 13:50:09 - 0:01:53 - 子进程0正在第11次调用api 已获取结果
+INFO - 03/27/23 13:50:09 - 0:01:54 - 子进程1正在第10次调用api 已获取结果
+INFO - 03/27/23 13:50:09 - 0:01:54 - 子进程6正在第7次调用api 已获取结果
+INFO - 03/27/23 13:50:10 - 0:01:54 - 子进程7正在第11次调用api 已获取结果
+INFO - 03/27/23 13:50:10 - 0:01:55 - 子进程4正在第14次调用api 已获取结果
+INFO - 03/27/23 13:50:11 - 0:01:55 - 子进程7正在第12次调用api 已获取结果
+INFO - 03/27/23 13:50:12 - 0:01:56 - 子进程5正在第34次调用api 已获取结果
+INFO - 03/27/23 13:50:12 - 0:01:56 - 子进程8正在第17次调用api 已获取结果
+INFO - 03/27/23 13:50:12 - 0:01:56 - 子进程9正在第15次调用api 已获取结果
+INFO - 03/27/23 13:50:14 - 0:01:59 - 子进程4正在第15次调用api 已获取结果
+INFO - 03/27/23 13:50:14 - 0:01:59 - 子进程3正在第13次调用api 已获取结果
+INFO - 03/27/23 13:50:15 - 0:01:59 - 子进程5正在第35次调用api 已获取结果
+INFO - 03/27/23 13:50:16 - 0:02:00 - 子进程2正在第18次调用api 已获取结果
+INFO - 03/27/23 13:50:16 - 0:02:01 - 子进程1正在第11次调用api 已获取结果
+INFO - 03/27/23 13:50:18 - 0:02:02 - 子进程5正在第36次调用api 已获取结果
+INFO - 03/27/23 13:50:18 - 0:02:02 - 子进程4正在第16次调用api 已获取结果
+INFO - 03/27/23 13:50:19 - 0:02:03 - 子进程8正在第18次调用api 已获取结果
+INFO - 03/27/23 13:50:20 - 0:02:04 - 子进程2正在第19次调用api 已获取结果
+INFO - 03/27/23 13:50:20 - 0:02:04 - 子进程7正在第13次调用api 已获取结果
+INFO - 03/27/23 13:50:20 - 0:02:05 - 子进程5正在第37次调用api 已获取结果
+INFO - 03/27/23 13:50:21 - 0:02:04 - 子进程9正在第16次调用api 已获取结果
+INFO - 03/27/23 13:50:21 - 0:02:06 - 子进程6正在第8次调用api 已获取结果
+INFO - 03/27/23 13:50:22 - 0:02:06 - 子进程0正在第12次调用api 已获取结果
+INFO - 03/27/23 13:50:22 - 0:02:06 - 子进程4正在第17次调用api 已获取结果
+INFO - 03/27/23 13:50:22 - 0:02:07 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:50:22 - 0:02:07 - 子进程3正在第14次调用api 已获取结果
+INFO - 03/27/23 13:50:23 - 0:02:07 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:50:24 - 0:02:08 - 子进程1正在第12次调用api 已获取结果
+INFO - 03/27/23 13:50:24 - 0:02:08 - 子进程5正在第38次调用api 已获取结果
+INFO - 03/27/23 13:50:25 - 0:02:09 - 子进程4正在第18次调用api 已获取结果
+INFO - 03/27/23 13:50:25 - 0:02:09 - 子进程8正在第19次调用api 已获取结果
+INFO - 03/27/23 13:50:25 - 0:02:09 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:50:27 - 0:02:11 - 子进程5正在第39次调用api 已获取结果
+INFO - 03/27/23 13:50:29 - 0:02:13 - 子进程9正在第17次调用api 已获取结果
+INFO - 03/27/23 13:50:29 - 0:02:14 - 子进程4正在第19次调用api 已获取结果
+INFO - 03/27/23 13:50:29 - 0:02:14 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:50:30 - 0:02:14 - 子进程5正在第40次调用api 已获取结果
+INFO - 03/27/23 13:50:31 - 0:02:15 - 子进程1正在第13次调用api 已获取结果
+INFO - 03/27/23 13:50:31 - 0:02:15 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:50:31 - 0:02:15 - 子进程7正在第14次调用api 已获取结果
+INFO - 03/27/23 13:50:32 - 0:02:16 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:50:32 - 0:02:16 - 子进程2正在第20次调用api 已获取结果
+INFO - 03/27/23 13:50:33 - 0:02:17 - 子进程5正在第41次调用api 已获取结果
+INFO - 03/27/23 13:50:33 - 0:02:18 - 子进程0正在第13次调用api 已获取结果
+INFO - 03/27/23 13:50:34 - 0:02:19 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:50:35 - 0:02:19 - 子进程6正在第9次调用api 已获取结果
+INFO - 03/27/23 13:50:36 - 0:02:21 - 子进程3正在第15次调用api 已获取结果
+INFO - 03/27/23 13:50:37 - 0:02:21 - 子进程5正在第42次调用api 已获取结果
+INFO - 03/27/23 13:50:37 - 0:02:21 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:50:38 - 0:02:22 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:50:38 - 0:02:22 - 子进程9正在第18次调用api 已获取结果
+INFO - 03/27/23 13:50:39 - 0:02:23 - 子进程2正在第21次调用api 已获取结果
+INFO - 03/27/23 13:50:39 - 0:02:23 - 子进程4正在第20次调用api 已获取结果
+INFO - 03/27/23 13:50:39 - 0:02:23 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:50:39 - 0:02:24 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:50:40 - 0:02:24 - 子进程1正在第14次调用api 已获取结果
+INFO - 03/27/23 13:50:43 - 0:02:27 - 子进程8正在第20次调用api 已获取结果
+INFO - 03/27/23 13:50:43 - 0:02:28 - 子进程3正在第16次调用api 已获取结果
+INFO - 03/27/23 13:50:44 - 0:02:28 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:50:45 - 0:02:29 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:50:45 - 0:02:29 - 子进程9正在第19次调用api 已获取结果
+INFO - 03/27/23 13:50:45 - 0:02:30 - 子进程5正在第43次调用api 已获取结果
+INFO - 03/27/23 13:50:45 - 0:02:30 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:50:46 - 0:02:30 - 子进程6正在第10次调用api 已获取结果
+INFO - 03/27/23 13:50:46 - 0:02:30 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:50:46 - 0:02:31 - 子进程2正在第22次调用api 已获取结果
+INFO - 03/27/23 13:50:48 - 0:02:33 - 子进程1正在第15次调用api 已获取结果
+INFO - 03/27/23 13:50:49 - 0:02:33 - 子进程8正在第21次调用api 已获取结果
+INFO - 03/27/23 13:50:52 - 0:02:36 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:50:52 - 0:02:36 - 子进程7正在第15次调用api 已获取结果
+INFO - 03/27/23 13:50:53 - 0:02:38 - 子进程0正在第14次调用api 已获取结果
+INFO - 03/27/23 13:50:54 - 0:02:38 - 子进程9正在第20次调用api 已获取结果
+INFO - 03/27/23 13:50:54 - 0:02:38 - 子进程5正在第44次调用api 已获取结果
+INFO - 03/27/23 13:50:54 - 0:02:39 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:50:55 - 0:02:39 - 子进程4正在第21次调用api 已获取结果
+INFO - 03/27/23 13:50:55 - 0:02:39 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:50:57 - 0:02:41 - 子进程8正在第22次调用api 已获取结果
+INFO - 03/27/23 13:50:57 - 0:02:41 - 子进程2正在第23次调用api 已获取结果
+INFO - 03/27/23 13:50:58 - 0:02:42 - 子进程1正在第16次调用api 已获取结果
+INFO - 03/27/23 13:50:58 - 0:02:43 - 子进程3正在第17次调用api 已获取结果
+INFO - 03/27/23 13:50:58 - 0:02:43 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:01 - 0:02:45 - 子进程7正在第16次调用api 已获取结果
+INFO - 03/27/23 13:51:01 - 0:02:45 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:03 - 0:02:47 - 子进程9正在第21次调用api 已获取结果
+INFO - 03/27/23 13:51:03 - 0:02:47 - 子进程4正在第22次调用api 已获取结果
+INFO - 03/27/23 13:51:03 - 0:02:48 - 子进程8正在第23次调用api 已获取结果
+INFO - 03/27/23 13:51:04 - 0:02:48 - 子进程2正在第24次调用api 已获取结果
+INFO - 03/27/23 13:51:04 - 0:02:48 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:04 - 0:02:48 - 子进程5正在第45次调用api 已获取结果
+INFO - 03/27/23 13:51:04 - 0:02:48 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:05 - 0:02:49 - 子进程0正在第15次调用api 已获取结果
+INFO - 03/27/23 13:51:05 - 0:02:49 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:05 - 0:02:49 - 子进程1正在第17次调用api 已获取结果
+INFO - 03/27/23 13:51:07 - 0:02:52 - 子进程4正在第23次调用api 已获取结果
+INFO - 03/27/23 13:51:08 - 0:02:53 - 子进程6正在第11次调用api 已获取结果
+INFO - 03/27/23 13:51:10 - 0:02:54 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:11 - 0:02:56 - 子进程8正在第24次调用api 已获取结果
+INFO - 03/27/23 13:51:12 - 0:02:56 - 子进程4正在第24次调用api 已获取结果
+INFO - 03/27/23 13:51:12 - 0:02:56 - 子进程9正在第22次调用api 已获取结果
+INFO - 03/27/23 13:51:13 - 0:02:56 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:13 - 0:02:57 - 子进程2正在第25次调用api 已获取结果
+INFO - 03/27/23 13:51:15 - 0:02:59 - 子进程4正在第25次调用api 已获取结果
+INFO - 03/27/23 13:51:16 - 0:03:01 - 子进程3正在第18次调用api 已获取结果
+INFO - 03/27/23 13:51:16 - 0:03:00 - 子进程7正在第17次调用api 已获取结果
+INFO - 03/27/23 13:51:17 - 0:03:01 - 子进程2正在第26次调用api 已获取结果
+INFO - 03/27/23 13:51:17 - 0:03:01 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:17 - 0:03:01 - 子进程1正在第18次调用api 已获取结果
+INFO - 03/27/23 13:51:17 - 0:03:01 - 子进程8正在第25次调用api 已获取结果
+INFO - 03/27/23 13:51:17 - 0:03:01 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:17 - 0:03:01 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:17 - 0:03:01 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:17 - 0:03:02 - 子进程6正在第12次调用api 已获取结果
+INFO - 03/27/23 13:51:18 - 0:03:02 - 子进程4正在第26次调用api 已获取结果
+INFO - 03/27/23 13:51:18 - 0:03:02 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:18 - 0:03:02 - 子进程5正在第46次调用api 已获取结果
+INFO - 03/27/23 13:51:19 - 0:03:03 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:21 - 0:03:05 - 子进程5正在第47次调用api 已获取结果
+INFO - 03/27/23 13:51:23 - 0:03:07 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:23 - 0:03:08 - 子进程5正在第48次调用api 已获取结果
+INFO - 03/27/23 13:51:23 - 0:03:08 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:26 - 0:03:10 - 子进程0正在第16次调用api 已获取结果
+INFO - 03/27/23 13:51:27 - 0:03:12 - 子进程2正在第27次调用api 已获取结果
+INFO - 03/27/23 13:51:28 - 0:03:12 - 子进程6正在第13次调用api 已获取结果
+INFO - 03/27/23 13:51:28 - 0:03:12 - 子进程4正在第27次调用api 已获取结果
+INFO - 03/27/23 13:51:28 - 0:03:12 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:28 - 0:03:13 - 子进程3正在第19次调用api 已获取结果
+INFO - 03/27/23 13:51:29 - 0:03:13 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:30 - 0:03:14 - 子进程7正在第18次调用api 已获取结果
+INFO - 03/27/23 13:51:31 - 0:03:15 - 子进程1正在第19次调用api 已获取结果
+INFO - 03/27/23 13:51:32 - 0:03:16 - 子进程9正在第23次调用api 已获取结果
+INFO - 03/27/23 13:51:33 - 0:03:17 - 子进程2正在第28次调用api 已获取结果
+INFO - 03/27/23 13:51:33 - 0:03:17 - 子进程5正在第49次调用api 已获取结果
+INFO - 03/27/23 13:51:33 - 0:03:17 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:33 - 0:03:17 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:35 - 0:03:19 - 子进程3正在第20次调用api 已获取结果
+INFO - 03/27/23 13:51:35 - 0:03:19 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:35 - 0:03:20 - 子进程0正在第17次调用api 已获取结果
+INFO - 03/27/23 13:51:35 - 0:03:20 - 子进程6正在第14次调用api 已获取结果
+INFO - 03/27/23 13:51:36 - 0:03:20 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:38 - 0:03:22 - 子进程4正在第28次调用api 已获取结果
+INFO - 03/27/23 13:51:39 - 0:03:22 - 子进程9正在第24次调用api 已获取结果
+INFO - 03/27/23 13:51:39 - 0:03:23 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:40 - 0:03:25 - 子进程1正在第20次调用api 已获取结果
+INFO - 03/27/23 13:51:41 - 0:03:25 - 子进程3正在第21次调用api 已获取结果
+INFO - 03/27/23 13:51:42 - 0:03:26 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:42 - 0:03:26 - 子进程4正在第29次调用api 已获取结果
+INFO - 03/27/23 13:51:42 - 0:03:26 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:42 - 0:03:26 - 子进程7正在第19次调用api 已获取结果
+INFO - 03/27/23 13:51:43 - 0:03:28 - 子进程2正在第29次调用api 已获取结果
+INFO - 03/27/23 13:51:44 - 0:03:28 - 子进程5正在第50次调用api 已获取结果
+INFO - 03/27/23 13:51:44 - 0:03:28 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:46 - 0:03:30 - 子进程3正在第22次调用api 已获取结果
+INFO - 03/27/23 13:51:47 - 0:03:31 - 子进程8正在第26次调用api 已获取结果
+INFO - 03/27/23 13:51:47 - 0:03:32 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:47 - 0:03:32 - 子进程2正在第30次调用api 已获取结果
+INFO - 03/27/23 13:51:48 - 0:03:32 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:48 - 0:03:32 - 子进程0正在第18次调用api 已获取结果
+INFO - 03/27/23 13:51:48 - 0:03:33 - 子进程1正在第21次调用api 已获取结果
+INFO - 03/27/23 13:51:49 - 0:03:33 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:51 - 0:03:36 - 子进程3正在第23次调用api 已获取结果
+INFO - 03/27/23 13:51:53 - 0:03:37 - 子进程5正在第51次调用api 已获取结果
+INFO - 03/27/23 13:51:53 - 0:03:37 - 子进程7正在第20次调用api 已获取结果
+INFO - 03/27/23 13:51:53 - 0:03:37 - 子进程9正在第25次调用api 已获取结果
+INFO - 03/27/23 13:51:53 - 0:03:37 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:53 - 0:03:37 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:55 - 0:03:39 - 子进程8正在第27次调用api 已获取结果
+INFO - 03/27/23 13:51:56 - 0:03:41 - 子进程5正在第52次调用api 已获取结果
+INFO - 03/27/23 13:51:57 - 0:03:41 - 子进程4正在第30次调用api 已获取结果
+INFO - 03/27/23 13:51:57 - 0:03:41 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:57 - 0:03:41 - 子进程0正在第19次调用api 已获取结果
+INFO - 03/27/23 13:51:57 - 0:03:42 - 子进程3正在第24次调用api 已获取结果
+INFO - 03/27/23 13:51:58 - 0:03:42 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:58 - 0:03:42 - 子进程2正在第31次调用api 已获取结果
+INFO - 03/27/23 13:51:58 - 0:03:43 - 子进程6正在第15次调用api 已获取结果
+INFO - 03/27/23 13:51:59 - 0:03:43 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:51:59 - 0:03:43 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:00 - 0:03:45 - 子进程5正在第53次调用api 已获取结果
+INFO - 03/27/23 13:52:01 - 0:03:46 - 子进程1正在第22次调用api 已获取结果
+INFO - 03/27/23 13:52:02 - 0:03:46 - 子进程2正在第32次调用api 已获取结果
+INFO - 03/27/23 13:52:02 - 0:03:46 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:02 - 0:03:46 - 子进程8正在第28次调用api 已获取结果
+INFO - 03/27/23 13:52:03 - 0:03:47 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:03 - 0:03:47 - 子进程5正在第54次调用api 已获取结果
+INFO - 03/27/23 13:52:03 - 0:03:47 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:05 - 0:03:50 - 子进程0正在第20次调用api 已获取结果
+INFO - 03/27/23 13:52:06 - 0:03:50 - 子进程5正在第55次调用api 已获取结果
+INFO - 03/27/23 13:52:06 - 0:03:50 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:06 - 0:03:51 - 子进程4正在第31次调用api 已获取结果
+INFO - 03/27/23 13:52:07 - 0:03:51 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:09 - 0:03:53 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:09 - 0:03:53 - 子进程7正在第21次调用api 已获取结果
+INFO - 03/27/23 13:52:09 - 0:03:54 - 子进程1正在第23次调用api 已获取结果
+INFO - 03/27/23 13:52:10 - 0:03:54 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:10 - 0:03:54 - 子进程5正在第56次调用api 已获取结果
+INFO - 03/27/23 13:52:10 - 0:03:55 - 子进程6正在第16次调用api 已获取结果
+INFO - 03/27/23 13:52:11 - 0:03:55 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:12 - 0:03:57 - 子进程3正在第25次调用api 已获取结果
+INFO - 03/27/23 13:52:13 - 0:03:57 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:13 - 0:03:57 - 子进程2正在第33次调用api 已获取结果
+INFO - 03/27/23 13:52:14 - 0:03:57 - 子进程9正在第26次调用api 已获取结果
+INFO - 03/27/23 13:52:14 - 0:03:59 - 子进程5正在第57次调用api 已获取结果
+INFO - 03/27/23 13:52:15 - 0:03:59 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:15 - 0:03:59 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:15 - 0:03:59 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:16 - 0:04:00 - 子进程4正在第32次调用api 已获取结果
+INFO - 03/27/23 13:52:17 - 0:04:01 - 子进程7正在第22次调用api 已获取结果
+INFO - 03/27/23 13:52:20 - 0:04:04 - 子进程2正在第34次调用api 已获取结果
+INFO - 03/27/23 13:52:20 - 0:04:04 - 子进程4正在第33次调用api 已获取结果
+INFO - 03/27/23 13:52:20 - 0:04:05 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:20 - 0:04:05 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:21 - 0:04:05 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:22 - 0:04:06 - 子进程9正在第27次调用api 已获取结果
+INFO - 03/27/23 13:52:22 - 0:04:06 - 子进程3正在第26次调用api 已获取结果
+INFO - 03/27/23 13:52:23 - 0:04:07 - 子进程0正在第21次调用api 已获取结果
+INFO - 03/27/23 13:52:24 - 0:04:08 - 子进程7正在第23次调用api 已获取结果
+INFO - 03/27/23 13:52:24 - 0:04:08 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:25 - 0:04:10 - 子进程3正在第27次调用api 已获取结果
+INFO - 03/27/23 13:52:26 - 0:04:10 - 子进程1正在第24次调用api 已获取结果
+INFO - 03/27/23 13:52:26 - 0:04:10 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on tokens per min. Limit: 150000 / min. Current: 148169 / min. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=tokens message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:26 - 0:04:11 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:26 - 0:04:11 - 子进程6正在第17次调用api 已获取结果
+INFO - 03/27/23 13:52:27 - 0:04:11 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:27 - 0:04:11 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:28 - 0:04:13 - 子进程3正在第28次调用api 已获取结果
+INFO - 03/27/23 13:52:29 - 0:04:13 - 子进程4正在第34次调用api 已获取结果
+INFO - 03/27/23 13:52:29 - 0:04:13 - 子进程9正在第28次调用api 已获取结果
+INFO - 03/27/23 13:52:30 - 0:04:14 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:30 - 0:04:14 - 子进程2正在第35次调用api 已获取结果
+INFO - 03/27/23 13:52:30 - 0:04:14 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on tokens per min. Limit: 150000 / min. Current: 148415 / min. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=tokens message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:32 - 0:04:16 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:32 - 0:04:16 - 子进程3正在第29次调用api 已获取结果
+INFO - 03/27/23 13:52:32 - 0:04:17 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:33 - 0:04:17 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:33 - 0:04:17 - 子进程4正在第35次调用api 已获取结果
+INFO - 03/27/23 13:52:33 - 0:04:17 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:34 - 0:04:19 - 子进程0正在第22次调用api 已获取结果
+INFO - 03/27/23 13:52:34 - 0:04:19 - 子进程3正在第30次调用api 已获取结果
+INFO - 03/27/23 13:52:36 - 0:04:20 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:38 - 0:04:22 - 子进程7正在第24次调用api 已获取结果
+INFO - 03/27/23 13:52:38 - 0:04:23 - 子进程3正在第31次调用api 已获取结果
+INFO - 03/27/23 13:52:38 - 0:04:23 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:39 - 0:04:23 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:39 - 0:04:23 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:40 - 0:04:25 - 子进程1正在第25次调用api 已获取结果
+INFO - 03/27/23 13:52:42 - 0:04:26 - 子进程5正在第58次调用api 已获取结果
+INFO - 03/27/23 13:52:45 - 0:04:29 - 子进程2正在第36次调用api 已获取结果
+INFO - 03/27/23 13:52:45 - 0:04:29 - 子进程6正在第18次调用api 已获取结果
+INFO - 03/27/23 13:52:45 - 0:04:29 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:45 - 0:04:29 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:45 - 0:04:29 - 子进程0正在第23次调用api 已获取结果
+INFO - 03/27/23 13:52:45 - 0:04:29 - 子进程7正在第25次调用api 已获取结果
+INFO - 03/27/23 13:52:45 - 0:04:29 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:47 - 0:04:31 - 子进程4正在第36次调用api 已获取结果
+INFO - 03/27/23 13:52:47 - 0:04:32 - 子进程1正在第26次调用api 已获取结果
+INFO - 03/27/23 13:52:48 - 0:04:32 - 子进程9正在第29次调用api 已获取结果
+INFO - 03/27/23 13:52:49 - 0:04:34 - 子进程3正在第32次调用api 已获取结果
+INFO - 03/27/23 13:52:50 - 0:04:34 - 子进程4正在第37次调用api 已获取结果
+INFO - 03/27/23 13:52:50 - 0:04:35 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:51 - 0:04:35 - 子进程5正在第59次调用api 已获取结果
+INFO - 03/27/23 13:52:51 - 0:04:35 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:51 - 0:04:35 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:51 - 0:04:35 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on tokens per min. Limit: 150000 / min. Current: 148784 / min. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=tokens message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:51 - 0:04:36 - 子进程0正在第24次调用api 已获取结果
+INFO - 03/27/23 13:52:51 - 0:04:36 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:52 - 0:04:37 - 子进程3正在第33次调用api 已获取结果
+INFO - 03/27/23 13:52:52 - 0:04:37 - 子进程4正在第38次调用api 已获取结果
+INFO - 03/27/23 13:52:53 - 0:04:37 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:54 - 0:04:38 - 子进程8正在第29次调用api 已获取结果
+INFO - 03/27/23 13:52:55 - 0:04:39 - 子进程9正在第30次调用api 已获取结果
+INFO - 03/27/23 13:52:56 - 0:04:40 - 子进程1正在第27次调用api 已获取结果
+INFO - 03/27/23 13:52:56 - 0:04:40 - 子进程3正在第34次调用api 已获取结果
+INFO - 03/27/23 13:52:56 - 0:04:41 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:56 - 0:04:41 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:56 - 0:04:41 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:57 - 0:04:41 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:52:57 - 0:04:41 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on tokens per min. Limit: 150000 / min. Current: 148384 / min. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=tokens message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:01 - 0:04:45 - 子进程4正在第39次调用api 已获取结果
+INFO - 03/27/23 13:53:02 - 0:04:46 - 子进程8正在第30次调用api 已获取结果
+INFO - 03/27/23 13:53:02 - 0:04:46 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:02 - 0:04:47 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:04 - 0:04:48 - 子进程4正在第40次调用api 已获取结果
+INFO - 03/27/23 13:53:04 - 0:04:48 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:04 - 0:04:48 - 子进程1正在第28次调用api 已获取结果
+INFO - 03/27/23 13:53:05 - 0:04:49 - 子进程9正在第31次调用api 已获取结果
+INFO - 03/27/23 13:53:08 - 0:04:52 - 子进程7正在第26次调用api 已获取结果
+INFO - 03/27/23 13:53:10 - 0:04:54 - 子进程8正在第31次调用api 已获取结果
+INFO - 03/27/23 13:53:10 - 0:04:55 - 子进程2正在第37次调用api 已获取结果
+INFO - 03/27/23 13:53:10 - 0:04:54 - 子进程9正在第32次调用api 已获取结果
+INFO - 03/27/23 13:53:10 - 0:04:55 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:10 - 0:04:54 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:11 - 0:04:55 - 子进程5正在第60次调用api 已获取结果
+INFO - 03/27/23 13:53:11 - 0:04:55 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on tokens per min. Limit: 150000 / min. Current: 148290 / min. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=tokens message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:11 - 0:04:55 - 子进程3正在第35次调用api 已获取结果
+INFO - 03/27/23 13:53:11 - 0:04:56 - 子进程0正在第25次调用api 已获取结果
+INFO - 03/27/23 13:53:11 - 0:04:56 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:11 - 0:04:56 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:13 - 0:04:57 - 子进程4正在第41次调用api 已获取结果
+INFO - 03/27/23 13:53:13 - 0:04:57 - 子进程6正在第19次调用api 已获取结果
+INFO - 03/27/23 13:53:13 - 0:04:58 - 子进程1正在第29次调用api 已获取结果
+INFO - 03/27/23 13:53:13 - 0:04:58 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:15 - 0:05:00 - 子进程4正在第42次调用api 已获取结果
+INFO - 03/27/23 13:53:17 - 0:05:01 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:17 - 0:05:01 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:18 - 0:05:02 - 子进程7正在第27次调用api 已获取结果
+INFO - 03/27/23 13:53:19 - 0:05:03 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:19 - 0:05:04 - 子进程4正在第43次调用api 已获取结果
+INFO - 03/27/23 13:53:20 - 0:05:04 - 子进程9正在第33次调用api 已获取结果
+INFO - 03/27/23 13:53:22 - 0:05:06 - 子进程8正在第32次调用api 已获取结果
+INFO - 03/27/23 13:53:22 - 0:05:07 - 子进程2正在第38次调用api 已获取结果
+INFO - 03/27/23 13:53:22 - 0:05:07 - 子进程4正在第44次调用api 已获取结果
+INFO - 03/27/23 13:53:22 - 0:05:07 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:22 - 0:05:07 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:22 - 0:05:07 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:24 - 0:05:08 - 子进程5正在第61次调用api 已获取结果
+INFO - 03/27/23 13:53:26 - 0:05:09 - 子进程9正在第34次调用api 已获取结果
+INFO - 03/27/23 13:53:27 - 0:05:12 - 子进程6正在第20次调用api 已获取结果
+INFO - 03/27/23 13:53:28 - 0:05:12 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:28 - 0:05:12 - 子进程7正在第28次调用api 已获取结果
+INFO - 03/27/23 13:53:29 - 0:05:13 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:30 - 0:05:14 - 子进程8正在第33次调用api 已获取结果
+INFO - 03/27/23 13:53:30 - 0:05:15 - 子进程0正在第26次调用api 已获取结果
+INFO - 03/27/23 13:53:30 - 0:05:15 - 子进程3正在第36次调用api 已获取结果
+INFO - 03/27/23 13:53:31 - 0:05:15 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:31 - 0:05:15 - 子进程1正在第30次调用api 已获取结果
+INFO - 03/27/23 13:53:31 - 0:05:15 - 子进程9正在第35次调用api 已获取结果
+INFO - 03/27/23 13:53:31 - 0:05:16 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:34 - 0:05:18 - 子进程5正在第62次调用api 已获取结果
+INFO - 03/27/23 13:53:35 - 0:05:19 - 子进程6正在第21次调用api 已获取结果
+INFO - 03/27/23 13:53:36 - 0:05:19 - 子进程9正在第36次调用api 已获取结果
+INFO - 03/27/23 13:53:36 - 0:05:20 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:36 - 0:05:20 - 子进程4正在第45次调用api 已获取结果
+INFO - 03/27/23 13:53:36 - 0:05:21 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:37 - 0:05:21 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:39 - 0:05:23 - 子进程3正在第37次调用api 已获取结果
+INFO - 03/27/23 13:53:39 - 0:05:23 - 子进程8正在第34次调用api 已获取结果
+INFO - 03/27/23 13:53:39 - 0:05:23 - 子进程0正在第27次调用api 已获取结果
+INFO - 03/27/23 13:53:39 - 0:05:23 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on tokens per min. Limit: 150000 / min. Current: 148198 / min. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=tokens message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:40 - 0:05:24 - 子进程2正在第39次调用api 已获取结果
+INFO - 03/27/23 13:53:40 - 0:05:24 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:41 - 0:05:25 - 子进程7正在第29次调用api 已获取结果
+INFO - 03/27/23 13:53:42 - 0:05:26 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:43 - 0:05:27 - 子进程3正在第38次调用api 已获取结果
+INFO - 03/27/23 13:53:43 - 0:05:27 - 子进程6正在第22次调用api 已获取结果
+INFO - 03/27/23 13:53:43 - 0:05:27 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:44 - 0:05:28 - 子进程5正在第63次调用api 已获取结果
+INFO - 03/27/23 13:53:45 - 0:05:29 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:47 - 0:05:31 - 子进程8正在第35次调用api 已获取结果
+INFO - 03/27/23 13:53:49 - 0:05:34 - 子进程2正在第40次调用api 已获取结果
+INFO - 03/27/23 13:53:51 - 0:05:36 - 子进程3正在第39次调用api 已获取结果
+INFO - 03/27/23 13:53:52 - 0:05:36 - 子进程1正在第31次调用api 已获取结果
+INFO - 03/27/23 13:53:52 - 0:05:36 - 子进程8正在第36次调用api 已获取结果
+INFO - 03/27/23 13:53:52 - 0:05:37 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:53 - 0:05:37 - 子进程4正在第46次调用api 已获取结果
+INFO - 03/27/23 13:53:53 - 0:05:37 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:53 - 0:05:37 - 子进程9正在第37次调用api 已获取结果
+INFO - 03/27/23 13:53:53 - 0:05:37 - 子进程7正在第30次调用api 已获取结果
+INFO - 03/27/23 13:53:54 - 0:05:38 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:54 - 0:05:38 - 子进程2正在第41次调用api 已获取结果
+INFO - 03/27/23 13:53:54 - 0:05:38 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:55 - 0:05:40 - 子进程0正在第28次调用api 已获取结果
+INFO - 03/27/23 13:53:56 - 0:05:40 - 子进程3正在第40次调用api 已获取结果
+INFO - 03/27/23 13:53:56 - 0:05:40 - 子进程9正在第38次调用api 已获取结果
+INFO - 03/27/23 13:53:56 - 0:05:40 - 子进程6正在第23次调用api 已获取结果
+INFO - 03/27/23 13:53:56 - 0:05:41 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:58 - 0:05:42 - 子进程1正在第32次调用api 已获取结果
+INFO - 03/27/23 13:53:59 - 0:05:43 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:53:59 - 0:05:44 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:00 - 0:05:44 - 子进程3正在第41次调用api 已获取结果
+INFO - 03/27/23 13:54:00 - 0:05:44 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:00 - 0:05:44 - 子进程9正在第39次调用api 已获取结果
+INFO - 03/27/23 13:54:01 - 0:05:45 - 子进程5正在第64次调用api 已获取结果
+INFO - 03/27/23 13:54:03 - 0:05:47 - 子进程9正在第40次调用api 已获取结果
+INFO - 03/27/23 13:54:05 - 0:05:50 - 子进程2正在第42次调用api 已获取结果
+INFO - 03/27/23 13:54:05 - 0:05:49 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:06 - 0:05:50 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:06 - 0:05:50 - 子进程8正在第37次调用api 已获取结果
+INFO - 03/27/23 13:54:07 - 0:05:51 - 子进程9正在第41次调用api 已获取结果
+INFO - 03/27/23 13:54:09 - 0:05:53 - 子进程9正在第42次调用api 已获取结果
+INFO - 03/27/23 13:54:09 - 0:05:54 - 子进程3正在第42次调用api 已获取结果
+INFO - 03/27/23 13:54:10 - 0:05:55 - 子进程5正在第65次调用api 已获取结果
+INFO - 03/27/23 13:54:11 - 0:05:55 - 子进程8正在第38次调用api 已获取结果
+INFO - 03/27/23 13:54:11 - 0:05:55 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:11 - 0:05:55 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:12 - 0:05:56 - 子进程6正在第24次调用api 已获取结果
+INFO - 03/27/23 13:54:12 - 0:05:56 - 子进程1正在第33次调用api 已获取结果
+INFO - 03/27/23 13:54:12 - 0:05:56 - 子进程9正在第43次调用api 已获取结果
+INFO - 03/27/23 13:54:12 - 0:05:57 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:12 - 0:05:56 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:14 - 0:05:58 - 子进程3正在第43次调用api 已获取结果
+INFO - 03/27/23 13:54:14 - 0:05:58 - 子进程0正在第29次调用api 已获取结果
+INFO - 03/27/23 13:54:14 - 0:05:59 - 子进程4正在第47次调用api 已获取结果
+INFO - 03/27/23 13:54:15 - 0:05:59 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:16 - 0:06:00 - 子进程2正在第43次调用api 已获取结果
+INFO - 03/27/23 13:54:18 - 0:06:02 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:20 - 0:06:04 - 子进程2正在第44次调用api 已获取结果
+INFO - 03/27/23 13:54:21 - 0:06:06 - 子进程8正在第39次调用api 已获取结果
+INFO - 03/27/23 13:54:22 - 0:06:06 - 子进程5正在第66次调用api 已获取结果
+INFO - 03/27/23 13:54:22 - 0:06:07 - 子进程0正在第30次调用api 已获取结果
+INFO - 03/27/23 13:54:23 - 0:06:07 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:23 - 0:06:07 - 子进程3正在第44次调用api 已获取结果
+INFO - 03/27/23 13:54:23 - 0:06:07 - 子进程9正在第44次调用api 已获取结果
+INFO - 03/27/23 13:54:23 - 0:06:07 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on tokens per min. Limit: 150000 / min. Current: 148400 / min. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=tokens message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:23 - 0:06:08 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:23 - 0:06:07 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:24 - 0:06:08 - 子进程2正在第45次调用api 已获取结果
+INFO - 03/27/23 13:54:24 - 0:06:08 - 子进程7正在第31次调用api 已获取结果
+INFO - 03/27/23 13:54:24 - 0:06:08 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:25 - 0:06:09 - 子进程6正在第25次调用api 已获取结果
+INFO - 03/27/23 13:54:26 - 0:06:10 - 子进程8正在第40次调用api 已获取结果
+INFO - 03/27/23 13:54:27 - 0:06:11 - 子进程2正在第46次调用api 已获取结果
+INFO - 03/27/23 13:54:28 - 0:06:12 - 子进程4正在第48次调用api 已获取结果
+INFO - 03/27/23 13:54:28 - 0:06:12 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:28 - 0:06:13 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on tokens per min. Limit: 150000 / min. Current: 147962 / min. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=tokens message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:29 - 0:06:13 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:29 - 0:06:13 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on tokens per min. Limit: 150000 / min. Current: 148108 / min. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=tokens message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:29 - 0:06:13 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:31 - 0:06:15 - 子进程8正在第41次调用api 已获取结果
+INFO - 03/27/23 13:54:32 - 0:06:16 - 子进程5正在第67次调用api 已获取结果
+INFO - 03/27/23 13:54:32 - 0:06:16 - 子进程2正在第47次调用api 已获取结果
+INFO - 03/27/23 13:54:32 - 0:06:16 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:34 - 0:06:18 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:34 - 0:06:19 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:36 - 0:06:20 - 子进程2正在第48次调用api 已获取结果
+INFO - 03/27/23 13:54:36 - 0:06:20 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:37 - 0:06:21 - 子进程8正在第42次调用api 已获取结果
+INFO - 03/27/23 13:54:37 - 0:06:21 - 子进程6正在第26次调用api 已获取结果
+INFO - 03/27/23 13:54:37 - 0:06:21 - 子进程7正在第32次调用api 已获取结果
+INFO - 03/27/23 13:54:37 - 0:06:21 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:37 - 0:06:21 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on tokens per min. Limit: 150000 / min. Current: 148265 / min. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=tokens message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:38 - 0:06:22 - 子进程9正在第45次调用api 已获取结果
+INFO - 03/27/23 13:54:38 - 0:06:22 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:40 - 0:06:24 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:41 - 0:06:25 - 子进程9正在第46次调用api 已获取结果
+INFO - 03/27/23 13:54:42 - 0:06:27 - 子进程8正在第43次调用api 已获取结果
+INFO - 03/27/23 13:54:43 - 0:06:27 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:43 - 0:06:27 - 子进程3正在第45次调用api 已获取结果
+INFO - 03/27/23 13:54:43 - 0:06:27 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:44 - 0:06:28 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:44 - 0:06:28 - 子进程2正在第49次调用api 已获取结果
+INFO - 03/27/23 13:54:45 - 0:06:29 - 子进程9正在第47次调用api 已获取结果
+INFO - 03/27/23 13:54:46 - 0:06:31 - 子进程0正在第31次调用api 已获取结果
+INFO - 03/27/23 13:54:47 - 0:06:31 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:48 - 0:06:32 - 子进程4正在第49次调用api 已获取结果
+INFO - 03/27/23 13:54:48 - 0:06:33 - 子进程2正在第50次调用api 已获取结果
+INFO - 03/27/23 13:54:48 - 0:06:32 - 子进程9正在第48次调用api 已获取结果
+INFO - 03/27/23 13:54:48 - 0:06:33 - 子进程8正在第44次调用api 已获取结果
+INFO - 03/27/23 13:54:48 - 0:06:33 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:49 - 0:06:33 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:49 - 0:06:32 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:49 - 0:06:33 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:49 - 0:06:34 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on tokens per min. Limit: 150000 / min. Current: 147992 / min. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=tokens message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:53 - 0:06:37 - 子进程7正在第33次调用api 已获取结果
+INFO - 03/27/23 13:54:53 - 0:06:37 - 子进程2正在第51次调用api 已获取结果
+INFO - 03/27/23 13:54:55 - 0:06:39 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:55 - 0:06:39 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:55 - 0:06:39 - 子进程1正在第34次调用api 已获取结果
+INFO - 03/27/23 13:54:55 - 0:06:39 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:54:57 - 0:06:41 - 子进程2正在第52次调用api 已获取结果
+INFO - 03/27/23 13:54:58 - 0:06:43 - 子进程4正在第50次调用api 已获取结果
+INFO - 03/27/23 13:55:00 - 0:06:44 - 子进程7正在第34次调用api 已获取结果
+INFO - 03/27/23 13:55:00 - 0:06:45 - 子进程2正在第53次调用api 已获取结果
+INFO - 03/27/23 13:55:01 - 0:06:45 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:02 - 0:06:46 - 子进程3正在第46次调用api 已获取结果
+INFO - 03/27/23 13:55:05 - 0:06:49 - 子进程2正在第54次调用api 已获取结果
+INFO - 03/27/23 13:55:05 - 0:06:49 - 子进程1正在第35次调用api 已获取结果
+INFO - 03/27/23 13:55:05 - 0:06:50 - 子进程0正在第32次调用api 已获取结果
+INFO - 03/27/23 13:55:05 - 0:06:50 - 子进程6正在第27次调用api 已获取结果
+INFO - 03/27/23 13:55:06 - 0:06:50 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:06 - 0:06:51 - 子进程4正在第51次调用api 已获取结果
+INFO - 03/27/23 13:55:07 - 0:06:51 - 子进程7正在第35次调用api 已获取结果
+INFO - 03/27/23 13:55:07 - 0:06:51 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:09 - 0:06:54 - 子进程2正在第55次调用api 已获取结果
+INFO - 03/27/23 13:55:10 - 0:06:54 - 子进程3正在第47次调用api 已获取结果
+INFO - 03/27/23 13:55:10 - 0:06:54 - 子进程9正在第49次调用api 已获取结果
+INFO - 03/27/23 13:55:12 - 0:06:56 - 子进程8正在第45次调用api 已获取结果
+INFO - 03/27/23 13:55:12 - 0:06:56 - 子进程5正在第68次调用api 已获取结果
+INFO - 03/27/23 13:55:12 - 0:06:56 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:13 - 0:06:58 - 子进程2正在第56次调用api 已获取结果
+INFO - 03/27/23 13:55:13 - 0:06:58 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:14 - 0:06:57 - 子进程9正在第50次调用api 已获取结果
+INFO - 03/27/23 13:55:14 - 0:06:58 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:15 - 0:06:59 - 子进程4正在第52次调用api 已获取结果
+INFO - 03/27/23 13:55:15 - 0:07:00 - 子进程1正在第36次调用api 已获取结果
+INFO - 03/27/23 13:55:16 - 0:07:00 - 子进程0正在第33次调用api 已获取结果
+INFO - 03/27/23 13:55:17 - 0:07:01 - 子进程3正在第48次调用api 已获取结果
+INFO - 03/27/23 13:55:18 - 0:07:02 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:18 - 0:07:02 - 子进程6正在第28次调用api 已获取结果
+INFO - 03/27/23 13:55:19 - 0:07:03 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:20 - 0:07:05 - 子进程5正在第69次调用api 已获取结果
+INFO - 03/27/23 13:55:21 - 0:07:05 - 子进程7正在第36次调用api 已获取结果
+INFO - 03/27/23 13:55:21 - 0:07:05 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:21 - 0:07:06 - 子进程1正在第37次调用api 已获取结果
+INFO - 03/27/23 13:55:21 - 0:07:06 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on tokens per min. Limit: 150000 / min. Current: 148288 / min. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=tokens message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:22 - 0:07:06 - 子进程4正在第53次调用api 已获取结果
+INFO - 03/27/23 13:55:24 - 0:07:09 - 子进程3正在第49次调用api 已获取结果
+INFO - 03/27/23 13:55:25 - 0:07:09 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:25 - 0:07:09 - 子进程9正在第51次调用api 已获取结果
+INFO - 03/27/23 13:55:26 - 0:07:10 - 子进程0正在第34次调用api 已获取结果
+INFO - 03/27/23 13:55:26 - 0:07:10 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:27 - 0:07:11 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:27 - 0:07:11 - 子进程5正在第70次调用api 已获取结果
+INFO - 03/27/23 13:55:28 - 0:07:12 - 子进程2正在第57次调用api 已获取结果
+INFO - 03/27/23 13:55:28 - 0:07:12 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:28 - 0:07:12 - 子进程6正在第29次调用api 已获取结果
+INFO - 03/27/23 13:55:30 - 0:07:15 - 子进程5正在第71次调用api 已获取结果
+CRITICAL - 03/27/23 13:55:30 - 0:07:15 - 结果保存完成
+INFO - 03/27/23 13:55:31 - 0:07:15 - 子进程1正在第38次调用api 已获取结果
+INFO - 03/27/23 13:55:32 - 0:07:15 - 子进程9正在第52次调用api 已获取结果
+INFO - 03/27/23 13:55:32 - 0:07:16 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:32 - 0:07:16 - 子进程8正在第46次调用api 已获取结果
+INFO - 03/27/23 13:55:32 - 0:07:16 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on tokens per min. Limit: 150000 / min. Current: 148034 / min. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=tokens message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:32 - 0:07:16 - 子进程4正在第54次调用api 已获取结果
+INFO - 03/27/23 13:55:32 - 0:07:17 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:33 - 0:07:17 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:35 - 0:07:19 - 子进程1正在第39次调用api 已获取结果
+INFO - 03/27/23 13:55:36 - 0:07:21 - 子进程3正在第50次调用api 已获取结果
+INFO - 03/27/23 13:55:38 - 0:07:22 - 子进程2正在第58次调用api 已获取结果
+INFO - 03/27/23 13:55:38 - 0:07:22 - 子进程6正在第30次调用api 已获取结果
+INFO - 03/27/23 13:55:38 - 0:07:23 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:38 - 0:07:22 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:39 - 0:07:23 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:39 - 0:07:24 - 子进程1正在第40次调用api 已获取结果
+INFO - 03/27/23 13:55:41 - 0:07:26 - 子进程0正在第35次调用api 已获取结果
+INFO - 03/27/23 13:55:42 - 0:07:26 - 子进程9正在第53次调用api 已获取结果
+INFO - 03/27/23 13:55:43 - 0:07:27 - 子进程4正在第55次调用api 已获取结果
+INFO - 03/27/23 13:55:43 - 0:07:28 - 子进程1正在第41次调用api 已获取结果
+INFO - 03/27/23 13:55:44 - 0:07:28 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:44 - 0:07:29 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:46 - 0:07:31 - 子进程3正在第51次调用api 已获取结果
+INFO - 03/27/23 13:55:47 - 0:07:31 - 子进程9正在第54次调用api 已获取结果
+INFO - 03/27/23 13:55:49 - 0:07:33 - 子进程4正在第56次调用api 已获取结果
+INFO - 03/27/23 13:55:51 - 0:07:35 - 子进程2正在第59次调用api 已获取结果
+INFO - 03/27/23 13:55:51 - 0:07:35 - 子进程0正在第36次调用api 已获取结果
+INFO - 03/27/23 13:55:51 - 0:07:35 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:51 - 0:07:36 - 子进程4正在第57次调用api 已获取结果
+INFO - 03/27/23 13:55:52 - 0:07:36 - 子进程9正在第55次调用api 已获取结果
+INFO - 03/27/23 13:55:52 - 0:07:36 - 子进程8正在第47次调用api 已获取结果
+INFO - 03/27/23 13:55:52 - 0:07:36 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:52 - 0:07:37 - 子进程3正在第52次调用api 已获取结果
+INFO - 03/27/23 13:55:53 - 0:07:37 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:55 - 0:07:39 - 子进程1正在第42次调用api 已获取结果
+INFO - 03/27/23 13:55:55 - 0:07:39 - 子进程6正在第31次调用api 已获取结果
+INFO - 03/27/23 13:55:55 - 0:07:39 - 子进程9正在第56次调用api 已获取结果
+INFO - 03/27/23 13:55:56 - 0:07:40 - 子进程4正在第58次调用api 已获取结果
+INFO - 03/27/23 13:55:56 - 0:07:40 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:56 - 0:07:40 - 子进程2正在第60次调用api 已获取结果
+INFO - 03/27/23 13:55:56 - 0:07:41 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:57 - 0:07:41 - 子进程7正在第37次调用api 已获取结果
+INFO - 03/27/23 13:55:58 - 0:07:42 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:55:59 - 0:07:43 - 子进程1正在第43次调用api 已获取结果
+INFO - 03/27/23 13:56:00 - 0:07:44 - 子进程9正在第57次调用api 已获取结果
+INFO - 03/27/23 13:56:01 - 0:07:46 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:56:03 - 0:07:48 - 子进程2正在第61次调用api 已获取结果
+INFO - 03/27/23 13:56:03 - 0:07:48 - 子进程1正在第44次调用api 已获取结果
+INFO - 03/27/23 13:56:03 - 0:07:48 - 子进程3正在第53次调用api 已获取结果
+INFO - 03/27/23 13:56:04 - 0:07:48 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:56:05 - 0:07:49 - 子进程7正在第38次调用api 已获取结果
+INFO - 03/27/23 13:56:06 - 0:07:51 - 子进程4正在第59次调用api 已获取结果
+INFO - 03/27/23 13:56:07 - 0:07:51 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:56:07 - 0:07:51 - 子进程1正在第45次调用api 已获取结果
+INFO - 03/27/23 13:56:07 - 0:07:51 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on tokens per min. Limit: 150000 / min. Current: 148601 / min. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=tokens message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:56:09 - 0:07:54 - 子进程2正在第62次调用api 已获取结果
+INFO - 03/27/23 13:56:09 - 0:07:53 - 子进程9正在第58次调用api 已获取结果
+INFO - 03/27/23 13:56:10 - 0:07:53 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:56:10 - 0:07:54 - 子进程6正在第32次调用api 已获取结果
+INFO - 03/27/23 13:56:10 - 0:07:55 - 子进程4正在第60次调用api 已获取结果
+INFO - 03/27/23 13:56:10 - 0:07:55 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:56:12 - 0:07:57 - 子进程7正在第39次调用api 已获取结果
+INFO - 03/27/23 13:56:13 - 0:07:57 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:56:13 - 0:07:57 - 子进程8正在第48次调用api 已获取结果
+INFO - 03/27/23 13:56:16 - 0:08:00 - 子进程3正在第54次调用api 已获取结果
+INFO - 03/27/23 13:56:16 - 0:08:01 - 子进程2正在第63次调用api 已获取结果
+INFO - 03/27/23 13:56:16 - 0:08:01 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:56:17 - 0:08:01 - 子进程1正在第46次调用api 已获取结果
+INFO - 03/27/23 13:56:19 - 0:08:03 - 子进程6正在第33次调用api 已获取结果
+INFO - 03/27/23 13:56:19 - 0:08:03 - 子进程0正在第37次调用api 已获取结果
+INFO - 03/27/23 13:56:19 - 0:08:03 - 子进程4正在第61次调用api 已获取结果
+INFO - 03/27/23 13:56:19 - 0:08:03 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:56:19 - 0:08:03 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:56:19 - 0:08:03 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on tokens per min. Limit: 150000 / min. Current: 149528 / min. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=tokens message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:56:21 - 0:08:05 - 子进程8正在第49次调用api 已获取结果
+INFO - 03/27/23 13:56:22 - 0:08:06 - 子进程9正在第59次调用api 已获取结果
+INFO - 03/27/23 13:56:22 - 0:08:07 - 子进程1正在第47次调用api 已获取结果
+INFO - 03/27/23 13:56:23 - 0:08:07 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:56:23 - 0:08:08 - 子进程3正在第55次调用api 已获取结果
+INFO - 03/27/23 13:56:25 - 0:08:09 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:56:25 - 0:08:09 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:56:26 - 0:08:10 - 子进程7正在第40次调用api 已获取结果
+INFO - 03/27/23 13:56:27 - 0:08:11 - 子进程8正在第50次调用api 已获取结果
+INFO - 03/27/23 13:56:29 - 0:08:14 - 子进程2正在第64次调用api 已获取结果
+INFO - 03/27/23 13:56:30 - 0:08:14 - 子进程3正在第56次调用api 已获取结果
+INFO - 03/27/23 13:56:30 - 0:08:14 - 子进程9正在第60次调用api 已获取结果
+INFO - 03/27/23 13:56:30 - 0:08:14 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:56:30 - 0:08:15 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:56:31 - 0:08:15 - 子进程0正在第38次调用api 已获取结果
+INFO - 03/27/23 13:56:32 - 0:08:16 - 子进程7正在第41次调用api 已获取结果
+INFO - 03/27/23 13:56:33 - 0:08:17 - 子进程8正在第51次调用api 已获取结果
+INFO - 03/27/23 13:56:35 - 0:08:20 - 子进程1正在第48次调用api 已获取结果
+INFO - 03/27/23 13:56:37 - 0:08:21 - 子进程9正在第61次调用api 已获取结果
+INFO - 03/27/23 13:56:38 - 0:08:22 - 子进程4正在第62次调用api 已获取结果
+INFO - 03/27/23 13:56:38 - 0:08:22 - 子进程2正在第65次调用api 已获取结果
+INFO - 03/27/23 13:56:38 - 0:08:22 - 子进程0正在第39次调用api 已获取结果
+INFO - 03/27/23 13:56:38 - 0:08:22 - 子进程8正在第52次调用api 已获取结果
+INFO - 03/27/23 13:56:38 - 0:08:23 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:56:38 - 0:08:22 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:56:38 - 0:08:23 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:56:40 - 0:08:24 - 子进程3正在第57次调用api 已获取结果
+INFO - 03/27/23 13:56:40 - 0:08:25 - 子进程4正在第63次调用api 已获取结果
+INFO - 03/27/23 13:56:41 - 0:08:26 - 子进程7正在第42次调用api 已获取结果
+INFO - 03/27/23 13:56:42 - 0:08:26 - 子进程1正在第49次调用api 已获取结果
+INFO - 03/27/23 13:56:43 - 0:08:27 - 子进程6正在第34次调用api 已获取结果
+INFO - 03/27/23 13:56:44 - 0:08:28 - 子进程4正在第64次调用api 已获取结果
+INFO - 03/27/23 13:56:44 - 0:08:28 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:56:44 - 0:08:28 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:56:44 - 0:08:28 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:56:46 - 0:08:30 - 子进程9正在第62次调用api 已获取结果
+INFO - 03/27/23 13:56:48 - 0:08:33 - 子进程3正在第58次调用api 已获取结果
+INFO - 03/27/23 13:56:49 - 0:08:33 - 子进程8正在第53次调用api 已获取结果
+INFO - 03/27/23 13:56:49 - 0:08:34 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:56:52 - 0:08:36 - 子进程6正在第35次调用api 已获取结果
+INFO - 03/27/23 13:56:52 - 0:08:36 - 子进程1正在第50次调用api 已获取结果
+INFO - 03/27/23 13:56:52 - 0:08:36 - 子进程9正在第63次调用api 已获取结果
+INFO - 03/27/23 13:56:53 - 0:08:37 - 子进程7正在第43次调用api 已获取结果
+INFO - 03/27/23 13:56:53 - 0:08:37 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:56:53 - 0:08:37 - 子进程8正在第54次调用api 已获取结果
+INFO - 03/27/23 13:56:55 - 0:08:40 - 子进程3正在第59次调用api 已获取结果
+INFO - 03/27/23 13:56:55 - 0:08:40 - 子进程0正在第40次调用api 已获取结果
+INFO - 03/27/23 13:56:56 - 0:08:40 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:56:56 - 0:08:41 - 子进程2正在第66次调用api 已获取结果
+INFO - 03/27/23 13:56:57 - 0:08:41 - 子进程8正在第55次调用api 已获取结果
+INFO - 03/27/23 13:56:57 - 0:08:42 - 子进程4正在第65次调用api 已获取结果
+INFO - 03/27/23 13:56:58 - 0:08:42 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:56:59 - 0:08:43 - 子进程9正在第64次调用api 已获取结果
+INFO - 03/27/23 13:57:00 - 0:08:44 - 子进程6正在第36次调用api 已获取结果
+INFO - 03/27/23 13:57:00 - 0:08:45 - 子进程1正在第51次调用api 已获取结果
+INFO - 03/27/23 13:57:00 - 0:08:45 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:01 - 0:08:46 - 子进程3正在第60次调用api 已获取结果
+INFO - 03/27/23 13:57:01 - 0:08:46 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:02 - 0:08:46 - 子进程8正在第56次调用api 已获取结果
+INFO - 03/27/23 13:57:02 - 0:08:46 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on tokens per min. Limit: 150000 / min. Current: 148154 / min. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=tokens message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:03 - 0:08:47 - 子进程2正在第67次调用api 已获取结果
+INFO - 03/27/23 13:57:04 - 0:08:48 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:06 - 0:08:50 - 子进程9正在第65次调用api 已获取结果
+INFO - 03/27/23 13:57:08 - 0:08:52 - 子进程6正在第37次调用api 已获取结果
+INFO - 03/27/23 13:57:10 - 0:08:54 - 子进程7正在第44次调用api 已获取结果
+INFO - 03/27/23 13:57:10 - 0:08:54 - 子进程2正在第68次调用api 已获取结果
+INFO - 03/27/23 13:57:10 - 0:08:55 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:12 - 0:08:56 - 子进程3正在第61次调用api 已获取结果
+INFO - 03/27/23 13:57:12 - 0:08:57 - 子进程8正在第57次调用api 已获取结果
+INFO - 03/27/23 13:57:13 - 0:08:57 - 子进程0正在第41次调用api 已获取结果
+INFO - 03/27/23 13:57:13 - 0:08:58 - 子进程1正在第52次调用api 已获取结果
+INFO - 03/27/23 13:57:13 - 0:08:58 - 子进程4正在第66次调用api 已获取结果
+INFO - 03/27/23 13:57:13 - 0:08:58 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:13 - 0:08:57 - 子进程9正在第66次调用api 已获取结果
+INFO - 03/27/23 13:57:14 - 0:08:58 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:14 - 0:08:58 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:15 - 0:08:59 - 子进程8正在第58次调用api 已获取结果
+INFO - 03/27/23 13:57:17 - 0:09:01 - 子进程7正在第45次调用api 已获取结果
+INFO - 03/27/23 13:57:19 - 0:09:03 - 子进程3正在第62次调用api 已获取结果
+INFO - 03/27/23 13:57:19 - 0:09:03 - 子进程8正在第59次调用api 已获取结果
+INFO - 03/27/23 13:57:20 - 0:09:04 - 子进程6正在第38次调用api 已获取结果
+INFO - 03/27/23 13:57:20 - 0:09:04 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:20 - 0:09:04 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:20 - 0:09:05 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on tokens per min. Limit: 150000 / min. Current: 148032 / min. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=tokens message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:21 - 0:09:06 - 子进程0正在第42次调用api 已获取结果
+INFO - 03/27/23 13:57:23 - 0:09:07 - 子进程8正在第60次调用api 已获取结果
+INFO - 03/27/23 13:57:23 - 0:09:08 - 子进程3正在第63次调用api 已获取结果
+INFO - 03/27/23 13:57:24 - 0:09:08 - 子进程2正在第69次调用api 已获取结果
+INFO - 03/27/23 13:57:25 - 0:09:09 - 子进程7正在第46次调用api 已获取结果
+INFO - 03/27/23 13:57:26 - 0:09:10 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:26 - 0:09:10 - 子进程8正在第61次调用api 已获取结果
+INFO - 03/27/23 13:57:26 - 0:09:10 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:26 - 0:09:10 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:28 - 0:09:12 - 子进程3正在第64次调用api 已获取结果
+INFO - 03/27/23 13:57:28 - 0:09:12 - 子进程1正在第53次调用api 已获取结果
+INFO - 03/27/23 13:57:29 - 0:09:13 - 子进程8正在第62次调用api 已获取结果
+INFO - 03/27/23 13:57:29 - 0:09:13 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:31 - 0:09:15 - 子进程2正在第70次调用api 已获取结果
+INFO - 03/27/23 13:57:31 - 0:09:15 - 子进程0正在第43次调用api 已获取结果
+INFO - 03/27/23 13:57:32 - 0:09:16 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:33 - 0:09:17 - 子进程3正在第65次调用api 已获取结果
+INFO - 03/27/23 13:57:33 - 0:09:17 - 子进程7正在第47次调用api 已获取结果
+INFO - 03/27/23 13:57:33 - 0:09:17 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:33 - 0:09:17 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on tokens per min. Limit: 150000 / min. Current: 148881 / min. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=tokens message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:34 - 0:09:18 - 子进程2正在第71次调用api 已获取结果
+CRITICAL - 03/27/23 13:57:34 - 0:09:18 - 结果保存完成
+INFO - 03/27/23 13:57:34 - 0:09:19 - 子进程1正在第54次调用api 已获取结果
+INFO - 03/27/23 13:57:35 - 0:09:19 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:37 - 0:09:21 - 子进程9正在第67次调用api 已获取结果
+INFO - 03/27/23 13:57:38 - 0:09:23 - 子进程0正在第44次调用api 已获取结果
+INFO - 03/27/23 13:57:39 - 0:09:23 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:41 - 0:09:25 - 子进程1正在第55次调用api 已获取结果
+INFO - 03/27/23 13:57:41 - 0:09:25 - 子进程4正在第67次调用api 已获取结果
+INFO - 03/27/23 13:57:42 - 0:09:27 - 子进程3正在第66次调用api 已获取结果
+INFO - 03/27/23 13:57:44 - 0:09:27 - 子进程9正在第68次调用api 已获取结果
+INFO - 03/27/23 13:57:45 - 0:09:29 - 子进程8正在第63次调用api 已获取结果
+INFO - 03/27/23 13:57:45 - 0:09:30 - 子进程4正在第68次调用api 已获取结果
+INFO - 03/27/23 13:57:46 - 0:09:30 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:46 - 0:09:30 - 子进程3正在第67次调用api 已获取结果
+INFO - 03/27/23 13:57:46 - 0:09:30 - 子进程6正在第39次调用api 已获取结果
+INFO - 03/27/23 13:57:46 - 0:09:30 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:47 - 0:09:32 - 子进程0正在第45次调用api 已获取结果
+INFO - 03/27/23 13:57:48 - 0:09:32 - 子进程1正在第56次调用api 已获取结果
+INFO - 03/27/23 13:57:49 - 0:09:33 - 子进程8正在第64次调用api 已获取结果
+INFO - 03/27/23 13:57:49 - 0:09:33 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:50 - 0:09:34 - 子进程3正在第68次调用api 已获取结果
+INFO - 03/27/23 13:57:50 - 0:09:34 - 子进程9正在第69次调用api 已获取结果
+INFO - 03/27/23 13:57:52 - 0:09:36 - 子进程7正在第48次调用api 已获取结果
+INFO - 03/27/23 13:57:52 - 0:09:36 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:52 - 0:09:36 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on tokens per min. Limit: 150000 / min. Current: 148295 / min. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=tokens message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:53 - 0:09:37 - 子进程3正在第69次调用api 已获取结果
+INFO - 03/27/23 13:57:54 - 0:09:38 - 子进程1正在第57次调用api 已获取结果
+INFO - 03/27/23 13:57:54 - 0:09:38 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:55 - 0:09:39 - 子进程4正在第69次调用api 已获取结果
+INFO - 03/27/23 13:57:56 - 0:09:41 - 子进程0正在第46次调用api 已获取结果
+INFO - 03/27/23 13:57:58 - 0:09:42 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:58 - 0:09:43 - 子进程3正在第70次调用api 已获取结果
+INFO - 03/27/23 13:57:59 - 0:09:43 - 子进程9正在第70次调用api 已获取结果
+INFO - 03/27/23 13:57:59 - 0:09:43 - 子进程8正在第65次调用api 已获取结果
+INFO - 03/27/23 13:57:59 - 0:09:43 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:57:59 - 0:09:44 - error_code=None error_message='Rate limit reached for default-text-davinci-003 in organization org-8HmRnuCY42pciMZZpZKtqfsC on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+INFO - 03/27/23 13:58:01 - 0:09:45 - 子进程3正在第71次调用api 已获取结果
+CRITICAL - 03/27/23 13:58:01 - 0:09:45 - 结果保存完成
+INFO - 03/27/23 13:58:01 - 0:09:45 - 子进程4正在第70次调用api 已获取结果
+INFO - 03/27/23 13:58:03 - 0:09:47 - 子进程4正在第71次调用api 已获取结果
+CRITICAL - 03/27/23 13:58:03 - 0:09:47 - 结果保存完成
+INFO - 03/27/23 13:58:04 - 0:09:48 - 子进程7正在第49次调用api 已获取结果
+INFO - 03/27/23 13:58:06 - 0:09:51 - 子进程1正在第58次调用api 已获取结果
+INFO - 03/27/23 13:58:07 - 0:09:52 - 子进程7正在第50次调用api 已获取结果
+INFO - 03/27/23 13:58:08 - 0:09:52 - 子进程8正在第66次调用api 已获取结果
+INFO - 03/27/23 13:58:10 - 0:09:54 - 子进程0正在第47次调用api 已获取结果
+INFO - 03/27/23 13:58:11 - 0:09:55 - 子进程9正在第71次调用api 已获取结果
+INFO - 03/27/23 13:58:12 - 0:09:56 - 子进程8正在第67次调用api 已获取结果
+INFO - 03/27/23 13:58:12 - 0:09:56 - 子进程9正在第72次调用api 已获取结果
+CRITICAL - 03/27/23 13:58:12 - 0:09:56 - 结果保存完成
+INFO - 03/27/23 13:58:13 - 0:09:57 - 子进程6正在第40次调用api 已获取结果
+INFO - 03/27/23 13:58:13 - 0:09:57 - 子进程7正在第51次调用api 已获取结果
+INFO - 03/27/23 13:58:13 - 0:09:58 - 子进程1正在第59次调用api 已获取结果
+INFO - 03/27/23 13:58:15 - 0:09:59 - 子进程8正在第68次调用api 已获取结果
+INFO - 03/27/23 13:58:17 - 0:10:01 - 子进程7正在第52次调用api 已获取结果
+INFO - 03/27/23 13:58:20 - 0:10:04 - 子进程8正在第69次调用api 已获取结果
+INFO - 03/27/23 13:58:21 - 0:10:05 - 子进程1正在第60次调用api 已获取结果
+INFO - 03/27/23 13:58:21 - 0:10:05 - 子进程7正在第53次调用api 已获取结果
+INFO - 03/27/23 13:58:23 - 0:10:07 - 子进程0正在第48次调用api 已获取结果
+INFO - 03/27/23 13:58:25 - 0:10:10 - 子进程6正在第41次调用api 已获取结果
+INFO - 03/27/23 13:58:26 - 0:10:10 - 子进程8正在第70次调用api 已获取结果
+INFO - 03/27/23 13:58:27 - 0:10:11 - 子进程7正在第54次调用api 已获取结果
+INFO - 03/27/23 13:58:27 - 0:10:12 - 子进程1正在第61次调用api 已获取结果
+INFO - 03/27/23 13:58:30 - 0:10:14 - 子进程0正在第49次调用api 已获取结果
+INFO - 03/27/23 13:58:30 - 0:10:14 - 子进程8正在第71次调用api 已获取结果
+CRITICAL - 03/27/23 13:58:30 - 0:10:14 - 结果保存完成
+INFO - 03/27/23 13:58:32 - 0:10:16 - 子进程7正在第55次调用api 已获取结果
+INFO - 03/27/23 13:58:35 - 0:10:19 - 子进程1正在第62次调用api 已获取结果
+INFO - 03/27/23 13:58:36 - 0:10:20 - 子进程7正在第56次调用api 已获取结果
+INFO - 03/27/23 13:58:37 - 0:10:21 - 子进程6正在第42次调用api 已获取结果
+INFO - 03/27/23 13:58:38 - 0:10:22 - 子进程0正在第50次调用api 已获取结果
+INFO - 03/27/23 13:58:40 - 0:10:24 - 子进程7正在第57次调用api 已获取结果
+INFO - 03/27/23 13:58:42 - 0:10:26 - 子进程1正在第63次调用api 已获取结果
+INFO - 03/27/23 13:58:45 - 0:10:29 - 子进程0正在第51次调用api 已获取结果
+INFO - 03/27/23 13:58:46 - 0:10:30 - 子进程7正在第58次调用api 已获取结果
+INFO - 03/27/23 13:58:48 - 0:10:33 - 子进程6正在第43次调用api 已获取结果
+INFO - 03/27/23 13:58:51 - 0:10:35 - 子进程7正在第59次调用api 已获取结果
+INFO - 03/27/23 13:58:55 - 0:10:39 - 子进程1正在第64次调用api 已获取结果
+INFO - 03/27/23 13:58:55 - 0:10:39 - 子进程0正在第52次调用api 已获取结果
+INFO - 03/27/23 13:58:58 - 0:10:42 - 子进程6正在第44次调用api 已获取结果
+INFO - 03/27/23 13:58:58 - 0:10:42 - 子进程7正在第60次调用api 已获取结果
+INFO - 03/27/23 13:59:02 - 0:10:46 - 子进程1正在第65次调用api 已获取结果
+INFO - 03/27/23 13:59:04 - 0:10:49 - 子进程0正在第53次调用api 已获取结果
+INFO - 03/27/23 13:59:04 - 0:10:48 - 子进程7正在第61次调用api 已获取结果
+INFO - 03/27/23 13:59:07 - 0:10:51 - 子进程6正在第45次调用api 已获取结果
+INFO - 03/27/23 13:59:11 - 0:10:55 - 子进程7正在第62次调用api 已获取结果
+INFO - 03/27/23 13:59:12 - 0:10:56 - 子进程1正在第66次调用api 已获取结果
+INFO - 03/27/23 13:59:12 - 0:10:56 - 子进程0正在第54次调用api 已获取结果
+INFO - 03/27/23 13:59:18 - 0:11:02 - 子进程1正在第67次调用api 已获取结果
+INFO - 03/27/23 13:59:20 - 0:11:04 - 子进程0正在第55次调用api 已获取结果
+INFO - 03/27/23 13:59:21 - 0:11:05 - 子进程6正在第46次调用api 已获取结果
+INFO - 03/27/23 13:59:21 - 0:11:05 - 子进程7正在第63次调用api 已获取结果
+INFO - 03/27/23 13:59:22 - 0:11:06 - 子进程1正在第68次调用api 已获取结果
+INFO - 03/27/23 13:59:27 - 0:11:12 - 子进程7正在第64次调用api 已获取结果
+INFO - 03/27/23 13:59:28 - 0:11:12 - 子进程1正在第69次调用api 已获取结果
+INFO - 03/27/23 13:59:29 - 0:11:13 - 子进程6正在第47次调用api 已获取结果
+INFO - 03/27/23 13:59:29 - 0:11:14 - 子进程0正在第56次调用api 已获取结果
+INFO - 03/27/23 13:59:34 - 0:11:18 - 子进程1正在第70次调用api 已获取结果
+INFO - 03/27/23 13:59:36 - 0:11:20 - 子进程7正在第65次调用api 已获取结果
+INFO - 03/27/23 13:59:37 - 0:11:22 - 子进程1正在第71次调用api 已获取结果
+CRITICAL - 03/27/23 13:59:37 - 0:11:22 - 结果保存完成
+INFO - 03/27/23 13:59:38 - 0:11:23 - 子进程0正在第57次调用api 已获取结果
+INFO - 03/27/23 13:59:39 - 0:11:23 - 子进程6正在第48次调用api 已获取结果
+INFO - 03/27/23 13:59:41 - 0:11:25 - 子进程7正在第66次调用api 已获取结果
+INFO - 03/27/23 13:59:44 - 0:11:28 - 子进程0正在第58次调用api 已获取结果
+INFO - 03/27/23 13:59:48 - 0:11:32 - 子进程6正在第49次调用api 已获取结果
+INFO - 03/27/23 13:59:49 - 0:11:33 - 子进程0正在第59次调用api 已获取结果
+INFO - 03/27/23 13:59:51 - 0:11:35 - 子进程7正在第67次调用api 已获取结果
+INFO - 03/27/23 13:59:55 - 0:11:39 - 子进程6正在第50次调用api 已获取结果
+INFO - 03/27/23 13:59:57 - 0:11:41 - 子进程7正在第68次调用api 已获取结果
+INFO - 03/27/23 13:59:59 - 0:11:44 - 子进程0正在第60次调用api 已获取结果
+INFO - 03/27/23 14:00:04 - 0:11:48 - 子进程7正在第69次调用api 已获取结果
+INFO - 03/27/23 14:00:04 - 0:11:48 - 子进程6正在第51次调用api 已获取结果
+INFO - 03/27/23 14:00:12 - 0:11:56 - 子进程0正在第61次调用api 已获取结果
+INFO - 03/27/23 14:00:12 - 0:11:56 - 子进程7正在第70次调用api 已获取结果
+INFO - 03/27/23 14:00:17 - 0:12:01 - 子进程7正在第71次调用api 已获取结果
+CRITICAL - 03/27/23 14:00:17 - 0:12:01 - 结果保存完成
+INFO - 03/27/23 14:00:18 - 0:12:03 - 子进程6正在第52次调用api 已获取结果
+INFO - 03/27/23 14:00:21 - 0:12:05 - 子进程0正在第62次调用api 已获取结果
+INFO - 03/27/23 14:00:27 - 0:12:11 - 子进程0正在第63次调用api 已获取结果
+INFO - 03/27/23 14:00:28 - 0:12:13 - 子进程6正在第53次调用api 已获取结果
+INFO - 03/27/23 14:00:33 - 0:12:17 - 子进程0正在第64次调用api 已获取结果
+INFO - 03/27/23 14:00:38 - 0:12:22 - 子进程6正在第54次调用api 已获取结果
+INFO - 03/27/23 14:00:42 - 0:12:26 - 子进程0正在第65次调用api 已获取结果
+INFO - 03/27/23 14:00:46 - 0:12:30 - 子进程6正在第55次调用api 已获取结果
+INFO - 03/27/23 14:00:48 - 0:12:33 - 子进程0正在第66次调用api 已获取结果
+INFO - 03/27/23 14:00:54 - 0:12:38 - 子进程6正在第56次调用api 已获取结果
+INFO - 03/27/23 14:00:55 - 0:12:40 - 子进程0正在第67次调用api 已获取结果
+INFO - 03/27/23 14:01:06 - 0:12:50 - 子进程6正在第57次调用api 已获取结果
+INFO - 03/27/23 14:01:06 - 0:12:50 - 子进程0正在第68次调用api 已获取结果
+INFO - 03/27/23 14:01:13 - 0:12:57 - 子进程0正在第69次调用api 已获取结果
+INFO - 03/27/23 14:01:17 - 0:13:01 - 子进程6正在第58次调用api 已获取结果
+INFO - 03/27/23 14:01:20 - 0:13:05 - 子进程0正在第70次调用api 已获取结果
+INFO - 03/27/23 14:01:23 - 0:13:07 - 子进程6正在第59次调用api 已获取结果
+INFO - 03/27/23 14:01:24 - 0:13:09 - 子进程0正在第71次调用api 已获取结果
+CRITICAL - 03/27/23 14:01:24 - 0:13:09 - 结果保存完成
+INFO - 03/27/23 14:01:29 - 0:13:14 - 子进程6正在第60次调用api 已获取结果
+INFO - 03/27/23 14:01:38 - 0:13:22 - 子进程6正在第61次调用api 已获取结果
+INFO - 03/27/23 14:01:52 - 0:13:36 - 子进程6正在第62次调用api 已获取结果
+INFO - 03/27/23 14:02:04 - 0:13:48 - 子进程6正在第63次调用api 已获取结果
+INFO - 03/27/23 14:02:14 - 0:13:58 - 子进程6正在第64次调用api 已获取结果
+INFO - 03/27/23 14:02:21 - 0:14:06 - 子进程6正在第65次调用api 已获取结果
+INFO - 03/27/23 14:02:28 - 0:14:12 - 子进程6正在第66次调用api 已获取结果
+INFO - 03/27/23 14:02:36 - 0:14:20 - 子进程6正在第67次调用api 已获取结果
+INFO - 03/27/23 14:02:41 - 0:14:25 - 子进程6正在第68次调用api 已获取结果
+INFO - 03/27/23 14:02:51 - 0:14:35 - 子进程6正在第69次调用api 已获取结果
+INFO - 03/27/23 14:03:00 - 0:14:44 - 子进程6正在第70次调用api 已获取结果
+INFO - 03/27/23 14:03:08 - 0:14:52 - 子进程6正在第71次调用api 已获取结果
+CRITICAL - 03/27/23 14:03:08 - 0:14:52 - 结果保存完成
