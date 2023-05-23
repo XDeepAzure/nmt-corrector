@@ -14,3 +14,16 @@
 - 在`utils`里增加新的prompt完成别的任务
 
 增加了continue，如果在运行`get_cor.py`的时候数据没有请求完就因为不知名原因断了，可以运行continue接着继续
+
+# update 23-05-23
+
+主要流程 `get_cor.py`
+- 将全部数据读入列表`src_ref_pre_filt`，自动根据进程数`num_thread`计算每个进程需处理得数据，并存入`thread_src_ref_pre`。
+- 进程开启会调用`thread_fun`函数，并在元组传入参数
+```python
+p = pool.apply_async(thread_fun, (i, r'\d+\.', num_sent_per_api,
+                                          None, thread_src_ref_pre[i], None))
+```
+- 进程函数内部使用`get_prompt_input`获取每次调用api时的prompt
+- 取得prompt用`get_response`调用
+- 用`get_result_from_response`解析返回结果
