@@ -27,3 +27,10 @@ p = pool.apply_async(thread_fun, (i, r'\d+\.', num_sent_per_api,
 - 进程函数内部使用`get_prompt_input`获取每次调用api时的prompt
 - 取得prompt用`get_response`调用
 - 用`get_result_from_response`解析返回结果
+
+# update 23-05-24
+
+- 将多进程调用框架提取出来到 `multiprocess_call.py` 文件里。
+- 顺着if __name__=="__main__": 读，实现相应的功能即可
+- 注意logger，默认的输出级别是warning。
+- 保存每个进程结果的时候，每个进程是并行执行的，所以顺序会乱，最好每个每个进程先分别保存，最后整合。
